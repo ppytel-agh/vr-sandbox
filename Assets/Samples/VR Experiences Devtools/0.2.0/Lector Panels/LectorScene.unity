@@ -3113,14 +3113,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1110651371}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 343a8ea22b0eca6458ccff0397a4dade, type: 3}
+  m_Script: {fileID: 11500000, guid: c5531ef9be797a94c9d420f47c13258a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   transcription: {fileID: 1110651374}
   transcriptionProgress: {fileID: 84446692}
   transcriptionProgressTimingText: {fileID: 1556238710}
   playPauseButtonText: {fileID: 1152027375}
-  panelTextVerticalScroll: {fileID: 0}
+  panelTextVerticalScroll: {fileID: 703377075}
 --- !u!82 &1110651374
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5757,11 +5757,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343a8ea22b0eca6458ccff0397a4dade, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transcription: {fileID: 2017225218}
-  transcriptionProgress: {fileID: 0}
-  transcriptionProgressTimingText: {fileID: 0}
-  playPauseButtonText: {fileID: 0}
-  panelTextVerticalScroll: {fileID: 0}
 --- !u!1 &2035304393
 GameObject:
   m_ObjectHideFlags: 0
