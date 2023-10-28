@@ -286,10 +286,11 @@
       "url": "https://packages.unity.com"
     },
     "pl.edu.agh.student.ppytel.vr-experiences-devtools": {
-      "version": "file:F:/repos/vr-experiences-devtools",
+      "version": "https://github.com/ppytel-agh/vr-experiences-devtools.git",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "750691ee189cadea9530e79850536e21a92a00fb"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
