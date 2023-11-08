@@ -123,50 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &284142828
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 284142830}
-  - component: {fileID: 284142829}
-  m_Layer: 0
-  m_Name: pano-manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &284142829
+--- !u!114 &284142829 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 20031186153225420, guid: 5205135acf1af7540badcb86956366f5, type: 3}
+  m_PrefabInstance: {fileID: 6626448664332521704}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 284142828}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b5d23419b001f44a9b0286dbf929c19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &284142830
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 284142828}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.425935, y: 0.043001905, z: 5.8501}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &299639867
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,9 +260,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1702441283788370172, guid: aee1a05d536e5ff458846364e4e31f5f, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1734091008103493435, guid: aee1a05d536e5ff458846364e4e31f5f, type: 3}
       propertyPath: m_Name
       value: VRExp Interaction Setup Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734091008103493435, guid: aee1a05d536e5ff458846364e4e31f5f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4904241858333738661, guid: aee1a05d536e5ff458846364e4e31f5f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -394,30 +369,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: pano-360-portal-1
       objectReference: {fileID: 0}
-    - target: {fileID: 2725160930166192613, guid: 1a3bfe51f2396414e93a5ba55e6d12f1, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 6868807082112874168, guid: 1a3bfe51f2396414e93a5ba55e6d12f1, type: 3}
-      propertyPath: connectedPortals.Array.data[0]
+    - target: {fileID: 7525252411468755579, guid: 1a3bfe51f2396414e93a5ba55e6d12f1, type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1894372910}
+      objectReference: {fileID: 284142829}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3bfe51f2396414e93a5ba55e6d12f1, type: 3}
---- !u!114 &427126012 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6868807082112874168, guid: 1a3bfe51f2396414e93a5ba55e6d12f1, type: 3}
-  m_PrefabInstance: {fileID: 427126011}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa6f0e7b7025404cbc14d9e01c41046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1249617917
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,7 +711,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1583334188}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa6f0e7b7025404cbc14d9e01c41046, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -795,7 +755,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 284142829}
+        m_TargetAssemblyTypeName: PanoPortalsManager, Assembly-CSharp
+        m_MethodName: enterPano
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: 3eb516636cf829d41b7982bd95dd03a8, type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -844,8 +816,6 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  skyboxCubemap: {fileID: 2100000, guid: 3eb516636cf829d41b7982bd95dd03a8, type: 2}
-  connectedPortals: []
 --- !u!1001 &1894372909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -905,23 +875,69 @@ PrefabInstance:
     - target: {fileID: 6868807082112874168, guid: 1a3bfe51f2396414e93a5ba55e6d12f1, type: 3}
       propertyPath: connectedPortals.Array.data[0]
       value: 
-      objectReference: {fileID: 427126012}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3bfe51f2396414e93a5ba55e6d12f1, type: 3}
---- !u!114 &1894372910 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6868807082112874168, guid: 1a3bfe51f2396414e93a5ba55e6d12f1, type: 3}
-  m_PrefabInstance: {fileID: 1894372909}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa6f0e7b7025404cbc14d9e01c41046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+--- !u!1001 &6626448664332521704
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8512423927147823396, guid: 5205135acf1af7540badcb86956366f5, type: 3}
+      propertyPath: m_Name
+      value: pano-manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561849720977302359, guid: 5205135acf1af7540badcb86956366f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561849720977302359, guid: 5205135acf1af7540badcb86956366f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561849720977302359, guid: 5205135acf1af7540badcb86956366f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561849720977302359, guid: 5205135acf1af7540badcb86956366f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561849720977302359, guid: 5205135acf1af7540badcb86956366f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561849720977302359, guid: 5205135acf1af7540badcb86956366f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561849720977302359, guid: 5205135acf1af7540badcb86956366f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561849720977302359, guid: 5205135acf1af7540badcb86956366f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561849720977302359, guid: 5205135acf1af7540badcb86956366f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8561849720977302359, guid: 5205135acf1af7540badcb86956366f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5205135acf1af7540badcb86956366f5, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -931,5 +947,5 @@ SceneRoots:
   - {fileID: 363941824}
   - {fileID: 427126011}
   - {fileID: 1894372909}
-  - {fileID: 284142830}
+  - {fileID: 6626448664332521704}
   - {fileID: 1583334193}

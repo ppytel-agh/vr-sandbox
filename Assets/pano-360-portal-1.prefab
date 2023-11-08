@@ -115,11 +115,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 874707451600981238}
-  - component: {fileID: 6868807082112874168}
   - component: {fileID: 7525252411468755579}
   m_Layer: 0
   m_Name: pano-360-portal-1
-  m_TagString: pano-portal
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,21 +139,6 @@ Transform:
   - {fileID: 4412966250899968965}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6868807082112874168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2725160930166192613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa6f0e7b7025404cbc14d9e01c41046, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skyboxCubemap: {fileID: 2100000, guid: 3eb516636cf829d41b7982bd95dd03a8, type: 2}
-  connectedPortals:
-  - {fileID: 0}
 --- !u!114 &7525252411468755579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,13 +194,13 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6868807082112874168}
-        m_TargetAssemblyTypeName: Pano360Portal, Assembly-CSharp
-        m_MethodName: transfer
-        m_Mode: 1
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PanoPortalsManager, Assembly-CSharp
+        m_MethodName: enterPano
+        m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
