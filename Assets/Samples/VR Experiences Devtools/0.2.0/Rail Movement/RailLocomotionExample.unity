@@ -148,7 +148,7 @@ Transform:
   m_GameObject: {fileID: 59851095}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0456293, y: -0.010790541, z: -0.22988209, w: 0.9720884}
-  m_LocalPosition: {x: -0.11, y: 8.38, z: 14.550001}
+  m_LocalPosition: {x: -0.11, y: 3.29, z: 14.550001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -697,7 +697,6 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  locomotionProvider: {fileID: 1946670317}
   railStart: {fileID: 1166900861}
   railEnd: {fileID: 59851096}
 --- !u!1 &823997481
@@ -1530,17 +1529,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1946670317 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4199474867435484186, guid: aee1a05d536e5ff458846364e4e31f5f, type: 3}
-  m_PrefabInstance: {fileID: 893715367}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ae649df21245704584b2ddbfae8b9d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2037380441
