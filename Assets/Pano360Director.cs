@@ -3,6 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+public class PanoInfo
+{
+    public string name;
+    public Material skyboxCubemap;
+    public Vector3 position;
+    public List<string> connectedPanos = new List<string>();
+}
+
 public class Pano360Director : MonoBehaviour
 {
     string metaSceneName;
@@ -43,6 +51,26 @@ public class Pano360Director : MonoBehaviour
             }
 
         }
+    }
+
+
+
+    public List<PanoInfo> getPanosInfo()
+    {
+        List<PanoInfo> panosList = new List<PanoInfo>();
+        foreach (Pano360Portal panoPortal in this.GetComponentsInChildren<Pano360Portal>())
+        {
+            PanoInfo panoInfo = new PanoInfo();
+            panosList.Add(panoInfo);
+            panoInfo.name = panoPortal.gameObject.name;
+            panoInfo.skyboxCubemap = panoPortal.skyboxCubemap;
+            panoInfo.position = panoPortal.transform.position;
+            foreach (Pano360Portal connectedPortal in panoPortal.connectedPortals)
+            {
+                panoInfo.connectedPanos.Add(connectedPortal.gameObject.name);
+            }
+        }
+        return panosList;
     }
 
     public void setMetaScene(string sceneName)
