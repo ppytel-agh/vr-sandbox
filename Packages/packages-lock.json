@@ -292,7 +292,7 @@
       "dependencies": {
         "com.unity.xr.interaction.toolkit": "2.5.2"
       },
-      "hash": "6248b53898df4aa4b95f9d8824d5d616a373be22"
+      "hash": "64c031aa2937e5b8b4952db9a2d8ca7fb426cc5a"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
