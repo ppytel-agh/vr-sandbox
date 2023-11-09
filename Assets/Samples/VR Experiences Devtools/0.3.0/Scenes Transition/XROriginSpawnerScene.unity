@@ -329,51 +329,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aee1a05d536e5ff458846364e4e31f5f, type: 3}
---- !u!1 &565253968
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 565253970}
-  - component: {fileID: 565253969}
-  m_Layer: 0
-  m_Name: Debug Messages
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &565253969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 565253968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 309ad97e36f712845a29d60f9731a8f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: cube hover enter
---- !u!4 &565253970
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 565253968}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &616051325
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,53 +434,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616051325}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &817476097
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 817476099}
-  - component: {fileID: 817476098}
-  m_Layer: 0
-  m_Name: XR Origin start positions
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!114 &817476098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 817476097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e48d2b3b2fd5420429c72995bf657b0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xrOriginInstance: {fileID: 0}
-  independentStartPosition: {fileID: 1991300807}
-  portalExitPosition: []
---- !u!4 &817476099
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 817476097}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1046458783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -666,52 +574,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8513859438149335270, guid: ee691a6ad661fad458f5712d9782a24a, type: 3}
   m_PrefabInstance: {fileID: 1129491502}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1157982868
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1157982870}
-  - component: {fileID: 1157982869}
-  m_Layer: 0
-  m_Name: Scenes Utility
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1157982869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157982868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae0d65f5da4911f4288384779439f177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: 
-  additive: 0
---- !u!4 &1157982870
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157982868}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.36805987, y: 0.6860169, z: -0.15457392}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1249617917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1183,7 +1045,7 @@ MonoBehaviour:
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 565253969}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DebugMessage, Assembly-CSharp
         m_MethodName: displayInConsole
         m_Mode: 5
@@ -1198,7 +1060,7 @@ MonoBehaviour:
   m_LastHoverExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 565253969}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DebugMessage, Assembly-CSharp
         m_MethodName: displayInConsole
         m_Mode: 5
@@ -1219,7 +1081,7 @@ MonoBehaviour:
   m_FirstSelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 565253969}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DebugMessage, Assembly-CSharp
         m_MethodName: displayInConsole
         m_Mode: 5
@@ -1234,7 +1096,7 @@ MonoBehaviour:
   m_LastSelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 565253969}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DebugMessage, Assembly-CSharp
         m_MethodName: displayInConsole
         m_Mode: 5
@@ -1255,7 +1117,7 @@ MonoBehaviour:
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 565253969}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DebugMessage, Assembly-CSharp
         m_MethodName: displayInConsole
         m_Mode: 5
@@ -1270,7 +1132,7 @@ MonoBehaviour:
   m_LastFocusExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 565253969}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DebugMessage, Assembly-CSharp
         m_MethodName: displayInConsole
         m_Mode: 5
@@ -1498,8 +1360,5 @@ SceneRoots:
   - {fileID: 299639869}
   - {fileID: 374644928}
   - {fileID: 1249617921}
-  - {fileID: 817476099}
-  - {fileID: 565253970}
-  - {fileID: 1157982870}
   - {fileID: 166984827}
   - {fileID: 1707026330}
