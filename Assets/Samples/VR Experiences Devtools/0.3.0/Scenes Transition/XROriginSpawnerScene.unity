@@ -450,6 +450,10 @@ PrefabInstance:
       propertyPath: exitDestination
       value: 
       objectReference: {fileID: 166984827}
+    - target: {fileID: 1679874094843509631, guid: ee691a6ad661fad458f5712d9782a24a, type: 3}
+      propertyPath: m_TeleportationProvider
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5555804721560425787, guid: ee691a6ad661fad458f5712d9782a24a, type: 3}
       propertyPath: m_Name
       value: Portal (1)
