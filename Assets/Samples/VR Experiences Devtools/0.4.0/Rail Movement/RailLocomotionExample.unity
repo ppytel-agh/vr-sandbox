@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14d437889bcd944479e43c47428312a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enabled: 0
+  synchronisationEnabled: 0
   railwayRoot: {fileID: 2112870467}
   railwayLineRenderer: {fileID: 325427202}
 --- !u!4 &325427204
@@ -1062,7 +1062,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9e3370517d20fa942beccfd3bd8efa7c, type: 2}
+  - {fileID: 2100000, guid: 1cb802afb592ae6458f50590a4b8f3d5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1385,7 +1385,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   rootNode: {fileID: 1169167639}
-  renderer: {fileID: 0}
 --- !u!4 &2112870468
 Transform:
   m_ObjectHideFlags: 0

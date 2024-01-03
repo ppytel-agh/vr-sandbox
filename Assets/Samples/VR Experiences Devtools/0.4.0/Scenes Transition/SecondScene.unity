@@ -493,7 +493,7 @@ PrefabInstance:
     - target: {fileID: 275073503511611919, guid: ee691a6ad661fad458f5712d9782a24a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5babc97713f7bae4fa9e604a54532b46, type: 2}
+      objectReference: {fileID: 2100000, guid: 1cb802afb592ae6458f50590a4b8f3d5, type: 2}
     - target: {fileID: 1679874094843509631, guid: ee691a6ad661fad458f5712d9782a24a, type: 3}
       propertyPath: exitSceneName
       value: SampleScene
@@ -630,7 +630,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40d5f39ae0668b14f9d71f56c2981be7, type: 2}
+  - {fileID: 2100000, guid: 1cb802afb592ae6458f50590a4b8f3d5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
